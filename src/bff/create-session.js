@@ -13,14 +13,14 @@ export const createSession = (roleId) => {
 	switch (roleId) {
 		case ROLE.ADMIN: {
 			session.removeComment = removeComment
-			break
+			break;
 		}
 		case ROLE.MODERATOR: {
 			session.removeComment = removeComment
-			break
+			break;
 		}
 		case ROLE.READER: {
-			break
+			break;
 		}
 		default:
 		// Ничего не делать
