@@ -48,10 +48,9 @@ function Blog() {
 					<Route path='/login' element={<Authorization />} />
 					<Route path='/register' element={<Registration />} />
 					<Route path='/users' element={<Users />} />
-					<Route path='/post' element={<div>Новая статья</div>} />
+					<Route path='/post' element={<Post />} />
 					<Route path='/post/:id' element={<Post />} />
 					<Route path='/post/:id/edit' element={<Post />} />
-					<Route path='/post/:id/*' element={<div>Ошибка</div>} />
 					<Route path='*' element={<div>Ошибка</div>} />
 				</Routes>
 			</Page>
