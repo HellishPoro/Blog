@@ -14,11 +14,11 @@ const AppColumn = styled.div`
 	min-height: 100%;
 	margin: 0 auto;
 	background-color: #fff;
+	position: relative;
 `;
 
 const Page = styled.div`
 	padding: 120px 0 20px;
-
 `;
 
 function Blog() {
