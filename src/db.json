@@ -163,28 +163,5 @@
       "id": 3
     }
   ],
-  "sessions": [
-    {
-      "hash": "0.16634849954532571203458246600348502397537231445313",
-      "user": {
-        "id": "001",
-        "login": "leonid",
-        "password": "qwerty123",
-        "registeredAt": "2050-09-22",
-        "roleId": 0
-      },
-      "id": 1
-    },
-    {
-      "hash": "0.07467433307399007347271435719449073076248168945313",
-      "user": {
-        "id": "798f",
-        "login": "elena",
-        "password": "qwerty123",
-        "registeredAt": "2039-11-14 16:43",
-        "roleId": 1
-      },
-      "id": 2
-    }
-  ]
+  "sessions": []
 }
