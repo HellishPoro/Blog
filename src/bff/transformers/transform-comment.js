@@ -4,4 +4,4 @@ export const transformComment = (dbComment) => ({
 	authorId: dbComment.author_id,
 	publishedAt: dbComment.published_at,
 	content: dbComment.content,
-})
+});

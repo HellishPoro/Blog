@@ -47,8 +47,8 @@ const CommentsContainer = ({ className, comments, postId }) => {
 				))}
 			</div>
 		</div>
-	)
-}
+	);
+};
 
 export const Comments = styled(CommentsContainer)`
 	width: 580px;

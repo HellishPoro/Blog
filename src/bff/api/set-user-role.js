@@ -2,9 +2,9 @@ export const setUserRole = (userId, roleId) =>
 	fetch(`http://localhost:3005/users/${userId}`, {
 		method: 'PATCH',
 		headers: {
-			'Countent-Type': 'application/json;charset=utf-8'
+			'Content-Type': 'application/json;charset=UTF-8',
 		},
 		body: JSON.stringify({
 			role_id: roleId,
 		}),
-	})
+	});

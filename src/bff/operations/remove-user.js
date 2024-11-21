@@ -3,21 +3,21 @@ import { sessions } from "../sessions"
 import { ROLE } from "../constants"
 
 export const removeUser = async (hash, userId) => {
-	const accessRoles = [ROLE.ADMIN]
+	const accessRoles = [ROLE.ADMIN];
 
-	const access = await sessions.access(hash, accessRoles)
+	const access = await sessions.access(hash, accessRoles);
 
 	if (!access) {
 		return {
-			error: 'Доступ запрещён',
+			error: 'Доступ запрещен',
 			res: null,
-		}
+		};
 	}
 
-	deleteUser(userId)
+	deleteUser(userId);
 
 	return {
 		error: null,
 		res: true,
-	}
-}
+	};
+};
