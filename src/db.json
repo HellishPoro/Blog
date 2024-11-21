@@ -13,6 +13,13 @@
       "password": "qwerty123",
       "registed_at": "2039-11-14 16:43",
       "role_id": 1
+    },
+    {
+      "login": "anton",
+      "password": "qwe123",
+      "registed_at": "2050-06-05 20:04",
+      "role_id": 2,
+      "id": "VAe98Y7"
     }
   ],
   "roles": [
@@ -147,6 +154,13 @@
       "published_at": "2041-09-16 09:16",
       "content": "asasas",
       "id": 2
+    },
+    {
+      "author_id": "VAe98Y7",
+      "post_id": "002",
+      "published_at": "2049-03-10 06:41",
+      "content": "Комментарий от Антона",
+      "id": 3
     }
   ],
   "sessions": [
@@ -160,6 +174,17 @@
         "roleId": 0
       },
       "id": 1
+    },
+    {
+      "hash": "0.07467433307399007347271435719449073076248168945313",
+      "user": {
+        "id": "798f",
+        "login": "elena",
+        "password": "qwerty123",
+        "registeredAt": "2039-11-14 16:43",
+        "roleId": 1
+      },
+      "id": 2
     }
   ]
 }
